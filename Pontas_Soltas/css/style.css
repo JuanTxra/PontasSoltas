@@ -362,5 +362,6 @@ html {
     .mapa {
         margin-top: 2rem;
         padding: 0;
+        width: 100%;
     }
 }
