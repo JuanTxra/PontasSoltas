@@ -210,6 +210,14 @@ footer {
     z-index: 10;
 }
 
+.containerFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 1.5rem;
+}
+
 .footerP {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
@@ -363,5 +371,16 @@ html {
         margin-top: 2rem;
         padding: 0;
         width: 100%;
+    }
+
+    .containerFooter {
+        padding-top: 0.5rem;
+    }
+
+    .footerP {
+        font-size: initial;
+        margin-left: 0;
+        margin-right: 1rem;
+        padding-top: 1.2rem;
     }
 }
